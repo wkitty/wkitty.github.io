@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>机票订购</title>
+    <link rel="stylesheet" href="css/plane.css">
+</head>
+<body>
+<div class="logo">
+    <img src="img/logo.png"/>
+</div>
+<nav>
+    <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">旅游资讯</a></li>
+        <li><a href="#">机票订购</a></li>
+        <li><a href="#">风景欣赏</a></li>
+        <li><a href="#">公司简介</a></li>
+    </ul>
+</nav>
+<div class="banner">
+    <div class="title">
+        <h1>旅游资讯</h1>
+        <h2>介绍各种最新旅游信息、资讯要闻、景点攻略等</h2></div>
+</div>
+
+<article>
+    <div class="left">
+        <section>
+            <div class="title">机票预定</div>
+            <div class="select">
+                航班类型<a class="a_active">单程</a><a>往返</a>
+            </div>
+            <div class="form">
+                <label>出发城市<input type="text" placeholder="城市名"/></label>
+                <label>出发时间<input type="date" /></label><br>
+                <label>返回城市<input type="text" placeholder="城市名"/></label>
+                <label>返回时间<input type="date" /></label>
+                <button type="submit">订票</button>
+            </div>
+        </section>
+        <section>
+            <div class="title">最新机票</div>
+            <div class="select">
+                热门城市：
+                <a class="a_active">北京</a><a>上海</a>
+                <a>广州</a><a>深圳</a>
+                <a>重庆</a><a>成都</a>
+                <a>杭州</a><a>南京</a>
+            </div>
+            <div class="s_box2">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>路线</th>
+                        <th>日期</th>
+                        <th>价格</th>
+                        <th>税费</th>
+                        <th>餐食</th>
+                        <th>航班</th>
+                        <th>预定</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>北京-成都</td>
+                        <td>10-15</td>
+                        <td class="orange">￥745</td>
+                        <td>￥50</td>
+                        <td>有</td>
+                        <td>春秋航空</td>
+                        <td><button class="btn_orange">预定</button></td>
+                    </tr>
+                    <tr>
+                        <td>北京-上海</td>
+                        <td>10-15</td>
+                        <td class="orange">￥479</td>
+                        <td>￥50</td>
+                        <td>有</td>
+                        <td>春秋航空</td>
+                        <td><button class="btn_orange">预定</button></td>
+                    </tr>
+                    <tr>
+                        <td>北京-深圳</td>
+                        <td>10-15</td>
+                        <td class="orange">￥745</td>
+                        <td>￥50</td>
+                        <td>无</td>
+                        <td>春秋航空</td>
+                        <td><button class="btn_orange">预定</button></td>
+                    </tr>
+                    <tr>
+                        <td>北京-广州</td>
+                        <td>10-15</td>
+                        <td class="orange">￥745</td>
+                        <td>￥50</td>
+                        <td>有</td>
+                        <td>春秋航空</td>
+                        <td><button class="btn_orange">预定</button></td>
+                    </tr>
+                    <tr>
+                        <td>北京-重庆</td>
+                        <td>10-15</td>
+                        <td class="orange">￥745</td>
+                        <td>￥50</td>
+                        <td>无</td>
+                        <td>春秋航空</td>
+                        <td><button class="btn_orange">预定</button></td>
+                    </tr>
+                    <tr>
+                        <td>北京-昆明</td>
+                        <td>10-15</td>
+                        <td class="orange">￥745</td>
+                        <td>￥50</td>
+                        <td>有</td>
+                        <td>春秋航空</td>
+                        <td><button class="btn_orange">预定</button></td>
+                    </tr>
+                    <tr>
+                        <td>北京-厦门</td>
+                        <td>10-15</td>
+                        <td class="orange">￥745</td>
+                        <td>￥50</td>
+                        <td>无</td>
+                        <td>春秋航空</td>
+                        <td><button class="btn_orange">预定</button></td>
+                    </tr>
+                    <tr>
+                        <td>北京-长沙</td>
+                        <td>10-15</td>
+                        <td class="orange">￥745</td>
+                        <td>￥50</td>
+                        <td>无</td>
+                        <td>春秋航空</td>
+                        <td><button class="btn_orange">预定</button></td>
+                    </tr>
+                    <tr>
+                        <td>北京-杭州</td>
+                        <td>10-15</td>
+                        <td class="orange">￥745</td>
+                        <td>￥50</td>
+                        <td>有</td>
+                        <td>春秋航空</td>
+                        <td><button class="btn_orange">预定</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7" style="cursor:pointer">加载更多航班...</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <div class="right">
+        <div class="r0 r1">
+            <div class="r_title">景点推荐</div>
+            <div class="r0_span">
+            <span>曼谷(12)</span><span>东京(5)</span><span>西双版纳(8)</span>
+            <span>漓江(16)</span><span>呼伦贝尔(4)</span><span>曼谷(12)</span>
+            <span>曼谷(12)</span><span>曼谷(12)</span><span>曼谷(12)</span>
+            <span>曼谷(12)</span><span>曼谷(12)</span><span>曼谷(12)</span>
+            <span>曼谷(12)</span><span>曼谷(12)</span><span>曼谷(12)</span>
+            <span>曼谷(12)</span><span>曼谷(12)</span><span>曼谷(12)</span>
+            <span>曼谷(12)</span><span>曼谷(12)</span><span>曼谷(12)</span>
+            </div>
+        </div>
+        <div class="r0 r2">
+            <div class="r_title">热门旅游</div>
+            <div class="r_mid">
+                <img src="img/s1.jpg" width="175px" /><br>
+                曼谷-芭提雅6日游
+            </div>
+            <div class="r_mid">
+                <img src="img/s2.jpg" width="175px" /><br>
+                曼谷-芭提雅6日游
+            </div>
+            <div class="r_mid">
+                <img src="img/s3.jpg" width="175px" /><br>
+                曼谷-芭提雅6日游
+            </div>
+            <div class="r_mid">
+                <img src="img/s4.jpg" width="175px" /><br>
+                曼谷-芭提雅6日游
+            </div>
+            <div class="r_mid">
+                <img src="img/s5.jpg" width="175px" /><br>
+                曼谷-芭提雅6日游
+            </div>
+            <div class="r_mid">
+                <img src="img/s6.jpg" width="175px" /><br>
+                曼谷-芭提雅6日游
+            </div>
+            <div class="r_mid">
+                <img src="img/s7.jpg" width="175px" /><br>
+                曼谷-芭提雅6日游
+        </div>
+            <div class="r_mid">
+                <img src="img/s8.jpg" width="175px" /><br>
+                曼谷-芭提雅6日游
+            </div>
+
+        </div>
+        <div class="r0 r3">
+            <div class="r_title">旅游百宝箱</div>
+            <div class="r3_box">天气预报</div><div class="r3_box">火车票查询</div>
+            <div class="r3_box">航空查询</div><div class="r3_box">地铁线路查询</div>
+        </div>
+    </div>
+</article>
+
+
+<!--footer部分-->
+<footer>
+    <div class="foot1">
+        <div class="foot0">
+            <div class="foot1_box f1_box1">
+                <span>合作伙伴</span>
+                <hr style="border: 1px dashed #666">
+                <li><a>途牛旅游网</a></li>
+                <li><a>驴妈妈旅游网</a></li>
+                <li><a>携程旅游</a></li>
+                <li><a>中国青年旅行社</a></li>
+            </div>
+            <div class="foot1_box">
+                <span>旅游FAQ</span>
+                <hr style="border: 1px dashed #666">
+                <li><a>旅游合同签订方式？</a></li>
+                <li><a>儿童价是基于什么制定的？</a></li>
+                <li><a>旅游的线路品质怎么界定？</a></li>
+                <li><a>单房差是什么？</a></li>
+            </div>
+            <div class="foot1_box">
+                <span>联系方式</span>
+                <hr style="border: 1px dashed #666">
+                <li><a>微博：yoghurtduoduo.com/</a></li>
+                <li><a>邮件：lunbo@neusoft.com</a></li>
+                <li><a>旅游的线路品质怎么界定？</a></li>
+                <li><a>地址：江苏南京花神大道86号</a></li>
+            </div>
+        </div>
+    </div>
+    <div class="foot2">
+        Copyright &copy; DuoDuo 多多旅行社|苏ICP 备120110119号|旅行社经营许可证：L-YC-BK12345
+    </div>
+</footer>
+
+</body>
+</html>

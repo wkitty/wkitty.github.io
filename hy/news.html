@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>news</title>
+    <link rel="stylesheet" href="css/news.css">
+    <script>
+        function setTab(name, cursel, n) {
+            for (i = 1; i <= n; i++) {
+                var menu = document.getElementById(name + i);
+                var con = document.getElementById("con_" + name + "_" + i);
+                menu.className = i == cursel ? "hover" : "";
+                con.style.display = i == cursel ? "block" : "none";
+            }
+        }
+    </script>
+</head>
+<body>
+<header class="top">
+    <div class="logo">
+        <img src="img/logo.png"/>
+    </div>
+    <div class="top1">
+        <p><a href="yuding.html">在线留言</a> | <a href="">常见问答</a> |<a href="">网站地图</a></p>
+    </div>
+    <div class="top2">
+        <h2 id="top2_h">栖居西山，小隐涵园</h2>
+        <a href=""><p id="top2_p">
+            <img src="img/1.png"/>
+            <em>ORDER</em>
+            <br> 在线预测
+        </p></a>
+    </div>
+    <div class="nav">
+        <div class="nav1">
+            <ul>
+                <li id="one1" onmouseover="setTab('one',1,4)"><a href="#">涵园首页</a></li>
+                <li id="one2" onmousemove="setTab('one',2,4)"><a href="#">酒店</a></li>
+                <li id="one3" onmouseover="setTab('one',3,4)"><a href="meishi.html">餐饮</a></li>
+                <li id="one4" onmousemove="setTab('one',4,4)"><a href="#">休闲娱乐</a></li>
+                <li><a href="biesu.html">别墅</a></li>
+                <li><a href="youting.html">游艇</a></li>
+                <li><a href="huiyi.html">会议</a></li>
+                <li><a href="#">关于涵园</a></li>
+            </ul>
+        </div>
+        <div class="nav2">
+            <!--				<img src="img/3.png" />-->
+            <div id=con_one_1>
+                <ul>
+                    <li><a href="#">关于涵园</a></li>
+                    <li><a href="#">果林茶园</a></li>
+                    <li><a href="#">风情小岛</a></li>
+                    <li><a href="#">环湖园林慢跑</a></li>
+                    <li><a href="#">客房预订</a></li>
+                    <li><a href="#">精美相册</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+            <div id=con_one_2 style="display: none;">
+                <ul>
+                    <li><a href="#">商务房（大/双）</a></li>
+                    <li><a href="#">行政大床房行政湖景房（大/双）</a></li>
+                    <li><a href="#">豪华套房（大/双）</a></li>
+                    <li><a href="#">涵园套房（大/双）</a></li>
+                    <li><a href="#">养生木屋</a></li>
+                    <li><a href="#">雅苑别墅</a></li>
+                </ul>
+            </div>
+            <div id=con_one_3 style="display: none;">
+                <ul>
+                    <li><a href="#">全日制花园餐</a></li>
+                    <li><a href="#">水上日本料理</a></li>
+                    <li><a href="#">涵茗轩茶苑</a></li>
+                    <li><a href="#">大堂吧</a></li>
+                </ul>
+            </div>
+            <div id=con_one_4 style="display: none;">
+                <ul>
+                    <li><a href="#">乐动KTV</a></li>
+                    <li><a href="#">泰国SPA</a></li>
+                    <li><a href="#">果林SPA木屋</a></li>
+                    <li><a href="#">室内常温泳池</a></li>
+                    <li><a href="#">健身中心</a></li>
+                    <li><a href="#">四季采摘</a></li>
+                    <li><a href="#">棋牌室</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="banner">
+    <img src="img/news/biesu_bp.jpg" alt="">
+</div>
+<div class="center">
+    <div class="pic"><p><span>当前位置:</span>首页»涵园咨询中心</p></div>
+    <div class="new">
+        <h2><span>涵园动态</span><em>Dynamic</em></h2>
+        <div class="news_left">
+            <dl>
+                <dt>
+                    <img src="img/news/new1.jpg" alt="">
+                </dt>
+                <dd>
+                    <h3>乐活太湖-紫砂壶品鉴</h3>
+                    <p>当非物质文化瑰宝，邂逅传世湖居行宫---苏州涵园，华派艺术--涵园紫砂展于2015年4月18日在涵园-湖居行宫举行。天下湖山，不出涵园。太湖涵园，静守西岛心，稀...</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="img/news/new2.jpg" alt="">
+                </dt>
+                <dd>
+                    <h3>乐活太湖-2015碧螺春发布会</h3>
+                    <p>洞庭飞翠、碧螺飘香。3月15日，吴中区在涵园召开了2015苏州吴中洞庭山碧螺春茶新闻发布会，正式向市民发布今年碧螺春开采、上市日期等相关情况，全面介绍了洞庭山碧...</p>
+                </dd>
+            </dl>
+        </div>
+        <div class="news_right">
+            <h3>涵园动态</h3>
+            <div class="f1" id="f1">
+                <ul id="con1">
+                    <li>《好妻子》火热拍摄地-苏州涵园游艇度假酒店</li>
+                    <li>涵园第一届COSPLAY动漫交流展</li>
+                    <li>乐活太湖-牛商争霸赛涵园启幕</li>
+                    <li>苏州太湖涵园，实现梦想的地方</li>
+                    <li>苏州涵园游艇度假酒店送你疯狂大礼包</li>
+                    <li>年底巨惠重磅回归 | 幸福家庭卡&无限欢乐卡</li>
+                    <li>乐活太湖-紫砂壶品鉴</li>
+                    <li>乐活太湖-第一届养生咨询会</li>
+                    <li>发现旅行-黄山公司投送季刊材料<</li>
+                    <li>乐活太湖-2015碧螺春发布会</li>
+                </ul>
+                <ul id="con2"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="new" id="new1">
+        <h2><span>行业资讯</span><em>News</em></h2>
+        <div class="news_left">
+            <dl>
+                <dt>
+                    <img src="img/news/new3.jpg" alt="">
+                </dt>
+                <dd>
+                    <h3> 苏州太湖国家旅游度假区</h3>
+                    <p>苏州太湖国家旅游度假区是1992年10月经国务院批准建立的全国12个国家级旅游度假区之一。拥有陆地面积173平方公里，太湖水面854平方公里，下辖香山街道和金庭...</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="img/news/new4.jpg" alt="">
+                </dt>
+                <dd>
+                    <h3> 苏州太湖园博会南京常州镇江淮安园规划</h3>
+                    <p>7月27日，第九届江苏省园艺博览会组委会公布了南京、常州、镇江和淮安园的规划。据介绍，这四个园子都坐落于园中四大片区中的“写意园林”片区。</p>
+                </dd>
+            </dl>
+        </div>
+        <div class="news_right">
+            <h3>行业资讯</h3>
+            <div class="f1" id="f2">
+                <ul id="con3">
+                    <li>苏州太湖西山岛旅游合作联盟圆满启动</li>
+                    <li>苏州太湖国家旅游度假区</li>
+                    <li>苏州太湖旅游</li>
+                    <li>苏州太湖景点,苏州太湖游艇,苏州涵园,西山住宿—西山太湖美，影视取景地</li>
+                    <li>苏州拟建最长湖底隧道 长度约为独墅湖隧道2倍</li>
+                    <li>中国环太湖城市旅游推广联盟正式成立</li>
+                    <li>苏州太湖园博会南京常州镇江淮安园规划</li>
+                    <li>乐活太湖-第一届养生咨询会</li>
+                    <li>发现旅行-黄山公司投送季刊材料</li>
+                    <li>乐活太湖-2015碧螺春发布会</li>
+                </ul>
+                <ul id="con4"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="foot">
+    <div class="foot1">
+        <h2>返回首页</h2>
+        <div class="t1">
+            <table>
+                <tr>
+                    <td>
+                        <a href="#"><img src="img/footer/f1.png"></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="img/footer/f2.png" alt=""></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="img/footer/f3.png" alt=""></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="img/footer/f4.png" alt=""></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="img/footer/f5.png" alt=""></a>
+                    </td>
+                    <td>
+                        <a href="#"><img src="img/footer/f6.png" alt=""></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="">游艇</a></td>
+                    <td><a href="">别墅</a></td>
+                    <td><a href="">酒店</a></td>
+                    <td><a href="">餐饮</a></td>
+                    <td><a href="">休闲娱乐</a></td>
+                    <td><a href="">会议</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="foot2">
+        <div class="left">
+            <a href="">
+                <div class="b1"><img src="img/footer/ft_1.jpg"></div>
+            </a>
+            <a href="">
+                <div class="b1"><img src="img/footer/ft_2.jpg"></div>
+            </a>
+            <a href="">
+                <div class="b1"><img src="img/footer/ft_3.jpg"></div>
+            </a>
+            <a href="">
+                <div class="b1"><img src="img/footer/ft_4.jpg"></div>
+            </a>
+            <a href="">
+                <div class="b1"><img src="img/footer/ft_5.jpg"></div>
+            </a>
+            <a href="">
+                <div class="b1"><img src="img/footer/ft_6.jpg"></div>
+            </a>
+        </div>
+        <div class="right">
+            <div class="erweima1"><img src="img/footer/erweima1.png" alt=""/></div>
+            <div class="mazhong">
+                <br/>扫一扫
+            </div>
+            <div class="erweima2"><img src="img/footer/erweima2.png" alt=""/></div>
+        </div>
+        <div class="logo2"><img src="img/footer/flogo.jpg" alt=""></div>
+    </div>
+    <div class="foot3">
+        <span class="span1">网站制作：<a href="">前端网</a>（股票代码：830888）<a href="">网站统计</a></span>
+        <span class="span2"><a href="">苏ICP09098888号-1</a></span>
+    </div>
+</footer>
+<script type="text/javascript" src="js/scroll.js"></script>
+</body>
+</html>

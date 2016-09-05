@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/style_chuzu.css" />
+		<script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+		<!--<link rel="stylesheet" href="js/mf-pattern/mF_qiyi.css" />-->
+		<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript">
+			//设置
+			myFocus.set({
+				id: 'myFocus', //ID
+				pattern: 'mF_qiyi' //风格
+			});
+			function setTab(name,cursel,n){
+			for(i=1;i<=n;i++){
+			var menu=document.getElementById(name+i);
+			var con=document.getElementById("con_"+name+"_"+i);
+			menu.className=i==cursel?"hover":"";
+			con.style.display=i==cursel?"block":"none";}}
+		</script>
+		
+	</head>
+	<body>
+
+		<header class="top">
+			<div class="logo">
+				<img src="img/logo.png" />
+			</div>
+			<div class="top1">
+				<p><a href="yuding.html" >在线留言</a> | <a href="">常见问答</a> |<a href="">网站地图</a></p>
+			</div>
+			<div class="top2">
+				<h2 id="top2_h">太湖夜照山灵影，顽福甘心让涵园</h2>
+				<a href=""><p id="top2_p">
+					<img src="img/1.png" />
+					<em>ORDER</em>
+					<br> 在线预测
+				</p></a>
+			</div>
+			<div class="nav">
+				<div class="nav1">
+					<ul>
+						<li id="one1" onmouseover="setTab('one',1,4)"><a href="#">涵园首页</a></li>
+						<li id="one2" onmousemove="setTab('one',2,4)"><a href="#">酒店</a></li>
+						<li id="one3" onmouseover="setTab('one',3,4)"><a href="meishi.html">餐饮</a></li>
+						<li id="one4" onmousemove="setTab('one',4,4)"><a href="#">休闲娱乐</a></li>
+						<li ><a href="biesu.html">别墅</a></li>
+						<li ><a href="youting.html">游艇</a></li>
+						<li ><a href="huiyi.html">会议</a></li>
+						<li ><a href="#">关于涵园</a></li>
+					</ul>
+				</div>
+				<div class="nav2">
+	<!--				<img src="img/3.png" />-->
+					<div id=con_one_1>
+						<ul>
+							<li><a href="#">关于涵园</a></li>
+							<li><a href="#">果林茶园</a></li>
+							<li><a href="#">风情小岛</a></li>
+							<li><a href="#">环湖园林慢跑</a></li>
+							<li><a href="#">客房预订</a></li>
+							<li><a href="#">精美相册</a></li>
+							<li><a href="#">联系我们</a></li>
+						</ul>
+					</div>
+					<div id=con_one_2 style="display: none;">
+						<ul>
+							<li><a href="#">商务房（大/双）</a></li>
+							<li><a href="#">行政大床房行政湖景房（大/双）</a></li>
+							<li><a href="#">豪华套房（大/双）</a></li>
+							<li><a href="#">涵园套房（大/双）</a></li>
+							<li><a href="#">养生木屋</a></li>
+							<li><a href="#">雅苑别墅</a></li>
+						</ul>
+					</div>
+					<div id=con_one_3 style="display: none;">
+						<ul>
+							<li><a href="#">全日制花园餐</a></li>
+							<li><a href="#">水上日本料理</a></li>
+							<li><a href="#">涵茗轩茶苑</a></li>
+							<li><a href="#">大堂吧</a></li>
+						</ul>
+					</div>
+					<div id=con_one_4 style="display: none;">
+						<ul>
+							<li><a href="#">乐动KTV</a></li>
+							<li><a href="#">泰国SPA</a></li>
+							<li><a href="#">果林SPA木屋</a></li>
+							<li><a href="#">室内常温泳池</a></li>
+							<li><a href="#">健身中心</a></li>
+							<li><a href="#">四季采摘</a></li>
+							<li><a href="#">棋牌室</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+			
+			
+		<div class="banner">
+			<div class="btnprev"></div>
+  			<div class="img">
+  				<ul>
+  				<li><img src ="img/img_chuzu/banner1.jpg" width="1220px" height="400px"/></li>
+  				<li><img src ="img/img_chuzu/banner2.jpg" width="1220px" height="400px"/></li>
+  				<li><img src ="img/img_chuzu/banner3.jpg" width="1220px" height="400px"/></li>
+  				<!--<li><img src ="img/maintop4.jpg " width="750px" height="300px"/></li>-->
+  				</ul>
+  			</div>
+  		<div class="btnnext"></div>
+			
+			<div class="bannerbo">
+				<h3>游艇出租</h3>
+				<h3>产品分类:游艇出租</h3>
+				<p>苏州涵园游艇度假酒店游艇部集游艇销售、游艇租赁、游艇驾驶培训为一体。水上面积50亩，具有96个国际标准游艇泊位。俱乐部为私人游艇配有加油站、干仓，提供游艇的维修、保养服务，是太湖唯…</p>
+				<h3>订购热线：400-8718-929</h3>
+			</div>
+		</div>
+		
+		<div class="main">
+			<div class="maintop">
+				&nbsp;&nbsp;<span>当前位置：</span><a href="#">首页</a> » <a href="#">涵园产品中心</a> » <a href="#">太湖游艇</a> » <a href="#">游艇出租</a>
+			</div>
+			
+			
+			<div class="mainmid">
+				<div class="mainmidl">
+					<br/><h3>游艇出租</h3>
+					<ul>
+						<li>会员VIP船主</li>
+						<li>露天游泳池 </li>
+						<li>专用码头租赁 </li>
+						<li>游艇及设施展示厅 </li>
+						<li>专用更衣室及停车场 </li>
+						<li>水上豪华餐厅及雪茄房等 </li>
+						<li>水上高尔夫、淡水钓 </li>
+						<li>水上高尔夫 </li>
+						<li>拥有不少于100个游艇泊位 </li>
+						<li>拥有苏州地方海事局指定完善的游艇和帆船驾驶教学中心 </li>
+						<li>拥有GPS安全系统，绝对保证每艘船的出航安全 </li>
+						<li>全年全天候提供停泊检修 </li>
+						<li>码头上先进完善的设施、水、电、加油站等 </li>
+						<li>游艇保养和维护设施</li>
+					</ul>
+				</div>
+				<div class="mainmidr">
+					<h3>涵园推荐</h3>
+					<img src="img/img_chuzu/mr1.jpg" width="130px" height="60px"/>
+					<img src="img/img_chuzu/mr2.jpg" width="130px" height="60px"/>
+					<img src="img/img_chuzu/mr3.jpg" width="130px" height="60px"/>
+					<img src="img/img_chuzu/mr4.jpg" width="130px" height="60px"/>
+					<img src="img/img_chuzu/mr5.jpg" width="130px" height="60px"/>
+					<img src="img/img_chuzu/mr6.jpg" width="130px" height="60px"/>
+					<div class="mainmidr_1"><span>24H</span>全天管家服务/送餐服务</div>
+				</div>
+			</div>
+			
+			<div class="mainfooter">
+				
+			</div>
+			
+		</div>
+		<div class="footer">
+			
+			<div class="footer1">
+  			<div class="footerleft">
+  			<img src="img/img_chuzu/f1.jpg" /><img src="img/img_chuzu/f2.jpg" /><img src="img/img_chuzu/f3.jpg" /><br />
+  			<img src="img/img_chuzu/f4.jpg" /><img src="img/img_chuzu/f5.jpg" /><img src="img/img_chuzu/f6.jpg" />
+  			</div>
+  			<div class="footerright"><img src="img/img_chuzu/erweima.jpg" /><br /><span style="margin-left:30px ;">扫一扫</span>
+  			</div>
+  			</div>
+  			<div class="footer2"><span class="f2left">COPYRIGHT © 2015-2022 HANYUAN 全景统计</span>
+  			<span class="f2right">苏ICP备05012247号</span>
+  			</div>
+  			<div class="footerlogo"><img src="img/img_chuzu/logo2.jpg" /></div>
+  			<div class="backtop"><a href="#top"><img src="img/img_chuzu/backtop.jpg"/></a>
+  	
+  			</div>
+		</div>
+	
+	
+	<script type="text/javascript"> 
+
+function DY_scroll(wraper,prev,next,img,speed,or)
+ { 
+  var wraper = $(wraper);
+  var prev = $(prev);
+  var next = $(next);
+  var img = $(img).find('ul');
+  var w = img.find('li').outerWidth(true);
+  var s = speed;
+  next.click(function()
+       {
+        img.animate({'margin-left':-w},function()
+                  {
+                   img.find('li').eq(0).appendTo(img);
+                   img.css({'margin-left':0});
+                   });
+        });
+  prev.click(function()
+       {
+        img.find('li:last').prependTo(img);
+        img.css({'margin-left':-w});
+        img.animate({'margin-left':0});
+        });
+  if (or == true)
+  {
+   ad = setInterval(function() { next.click();},s*1000);
+   wraper.hover(function(){clearInterval(ad);},function(){ad = setInterval(function() { next.click();},s*1000);});
+
+  }
+ }
+
+DY_scroll('.banner','.btnprev','.btnnext','.img',10,false);
+</script>
+	</body>
+</html>

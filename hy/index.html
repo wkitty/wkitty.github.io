@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>涵园国际俱乐部</title>
+		<link rel="stylesheet" href="css/style1.css" />
+
+		<script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+		<link rel="stylesheet" href="js/mf-pattern/mF_qiyi.css" />
+		<script type="text/javascript" src="js/mf-pattern/mF_qiyi.js"></script>
+		<script type="text/javascript">
+			//设置
+			myFocus.set({
+				id: 'myFocus', //ID
+				pattern: 'mF_qiyi' //风格
+			});
+			function setTab(name,cursel,n){
+			for(i=1;i<=n;i++){
+			var menu=document.getElementById(name+i);
+			var con=document.getElementById("con_"+name+"_"+i);
+			menu.className=i==cursel?"hover":"";
+			con.style.display=i==cursel?"block":"none";}}
+		</script>
+	</head>
+
+	<body>
+		<header class="top">
+			<div class="logo">
+				<img src="img/logo.png" />
+			</div>
+			<div class="top1">
+				<p><a href="order.html" >在线留言</a> | <a href="">常见问答</a> |<a href="">网站地图</a></p>
+			</div>
+			<div class="top2">
+				<h2 id="top2_h">太湖夜照山灵影，顽福甘心让涵园</h2>
+				<a href=""><p id="top2_p">
+					<img src="img/1.png" />
+					<em>ORDER</em>
+					<br> 在线预测
+				</p></a>
+			</div>
+			<div class="nav">
+				<div class="nav1">
+					<ul>
+						<li id="one1" onmouseover="setTab('one',1,4)"><a href="#">涵园首页</a></li>
+						<li id="one2" onmousemove="setTab('one',2,4)"><a href="hotel.html">酒店</a></li>
+						<li id="one3" onmouseover="setTab('one',3,4)"><a href="meishi.html">餐饮</a></li>
+						<li id="one4" onmousemove="setTab('one',4,4)"><a href="#">休闲娱乐</a></li>
+						<li ><a href="biesu.html">别墅</a></li>
+						<li ><a href="youting.html">游艇</a></li>
+						<li ><a href="huiyi.html">会议</a></li>
+						<li ><a href="about_us.html">关于涵园</a></li>
+					</ul>
+				</div>
+				<div class="nav2">
+	<!--				<img src="img/3.png" />-->
+					<div id=con_one_1>
+						<ul>
+							<li><a href="#">关于涵园</a></li>
+							<li><a href="#">果林茶园</a></li>
+							<li><a href="#">风情小岛</a></li>
+							<li><a href="#">环湖园林慢跑</a></li>
+							<li><a href="#">客房预订</a></li>
+							<li><a href="#">精美相册</a></li>
+							<li><a href="#">联系我们</a></li>
+						</ul>
+					</div>
+					<div id=con_one_2 style="display: none;">
+						<ul>
+							<li><a href="#">商务房（大/双）</a></li>
+							<li><a href="#">行政大床房行政湖景房（大/双）</a></li>
+							<li><a href="#">豪华套房（大/双）</a></li>
+							<li><a href="#">涵园套房（大/双）</a></li>
+							<li><a href="#">养生木屋</a></li>
+							<li><a href="#">雅苑别墅</a></li>
+						</ul>
+					</div>
+					<div id=con_one_3 style="display: none;">
+						<ul>
+							<li><a href="#">全日制花园餐</a></li>
+							<li><a href="#">水上日本料理</a></li>
+							<li><a href="#">涵茗轩茶苑</a></li>
+							<li><a href="#">大堂吧</a></li>
+						</ul>
+					</div>
+					<div id=con_one_4 style="display: none;">
+						<ul>
+							<li><a href="#">乐动KTV</a></li>
+							<li><a href="#">泰国SPA</a></li>
+							<li><a href="#">果林SPA木屋</a></li>
+							<li><a href="#">室内常温泳池</a></li>
+							<li><a href="#">健身中心</a></li>
+							<li><a href="#">四季采摘</a></li>
+							<li><a href="#">棋牌室</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--  logo区域  导航条区域结束 -->
+		<div id="myFocus" class="banner">
+			<div class="pic">
+				
+				<ul>
+					<li>
+						<a href="#"><img src="img/banner1.png" alt=""></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/banner2.png" alt=""></a>
+					</li>
+					<li>
+						<a href="#"><img src="img/banner3.png" alt=""></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- banner区域结束   -->
+		<div class="center">
+			<div class="center_top">
+				<div class="center_top_left">
+					<img src="img/centerlg.png" />
+				</div>
+				<div class="center_top_right">
+					<p>山水苏州，美在太湖，尽在涵园</p>
+					<a href="hotel.html"><img src="img/centermore.png"></a>
+         		</div>
+			</div>
+			<div class="center_bottom">
+				<div class="center_bottom_left">
+					<div class="center_bottom_left_p1">
+                        <p id=con_p_1><img src="img/11.jpg"><a>萨达撒沙发上发呆</a></p>
+                        <p id=con_p_2 style="display: none;"><img src="img/12.jpg"></p>
+                        <p id=con_p_3 style="display: none;"><img src="img/13.jpg"></p>
+                        <p id=con_p_4 style="display: none;"><img src="img/14.jpg"></p>
+                        <p id=con_p_5 style="display: none;"><img src="img/15.jpg"></p>
+					</div>
+					<div class="center_bottom_left_p2">
+                        <ul>
+                            <a href=""><li id="p1" onmouseover="setTab('p',1,5)"><img src="img/01.png"></li></a>
+                            <a href=""><li id="p2" onmouseover="setTab('p',2,5)"><img src="img/02.png"></li></a>
+                            <a href=""><li id="p3" onmouseover="setTab('p',3,5)"><img src="img/03.png"></li></a>
+                            <a href=""><li id="p4" onmouseover="setTab('p',4,5)"><img src="img/04.png"></li></a>
+                            <a href=""><li id="p5" onmouseover="setTab('p',5,5)"><img src="img/05.png"></li></a>
+                        </ul>
+					</div>
+				</div>
+				<div class="center_bottom_right">
+					<p><b>一湖一山一园</b></p>
+					<p>太湖夜照山灵影，</p>
+					<p>万福甘心让涵园。</p>
+				</div>
+			</div>
+		</div>
+		<!--内容区域结束-->
+		<footer class="foot" >
+			<div class="foot1">
+				<h2>返回首页</h2>
+				<div class="t1">
+					<table>
+						<tr>
+							<td>
+								<a href="#"><img src="img/footer/f1.png"></a>
+							</td>
+							<td>
+								<a href="#"><img src="img/footer/f2.png" alt=""></a>
+							</td>
+							<td>
+								<a href="#"><img src="img/footer/f3.png" alt=""></a>
+							</td>
+							<td>
+								<a href="#"><img src="img/footer/f4.png" alt=""></a>
+							</td>
+							<td>
+								<a href="#"><img src="img/footer/f5.png" alt=""></a>
+							</td>
+							<td>
+								<a href="#"><img src="img/footer/f6.png" alt=""></a>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="">游艇</a></td>
+							<td><a href="">别墅</a></td>
+							<td><a href="">酒店</a></td>
+							<td><a href="">餐饮</a></td>
+							<td><a href="">休闲娱乐</a></td>
+							<td><a href="">会议</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="foot2">
+				<div class="left">
+					<a href="">
+						<div class="b1"><img src="img/footer/ft_1.jpg"></div>
+					</a>
+					<a href="">
+						<div class="b1"> <img src="img/footer/ft_2.jpg"></div>
+					</a>
+					<a href="">
+						<div class="b1"><img src="img/footer/ft_3.jpg"></div>
+					</a>
+					<a href="">
+						<div class="b1"><img src="img/footer/ft_4.jpg"></div>
+					</a>
+					<a href="">
+						<div class="b1"><img src="img/footer/ft_5.jpg"></div>
+					</a>
+					<a href="">
+						<div class="b1"><img src="img/footer/ft_6.jpg"></div>
+					</a>
+				</div>
+				<div class="right">
+					<div class="erweima1"><img src="img/footer/erweima1.png" alt="" /></div>
+					<div class="mazhong"><br />扫一扫</div>
+					<div class="erweima2"><img src="img/footer/erweima2.png" alt="" /></div>
+				</div>
+			    <div class="logo2"><img src="img/footer/flogo.jpg" alt=""></div>
+
+				
+			</div>
+			<div class="foot3">
+				<span class="span1">网站制作：<a href="">前端网</a>（股票代码：830888）<a href="">网站统计</a></span>
+				<span class="span2"><a href="">苏ICP09098888号-1</a></span>
+			</div>
+		</footer>
+			<!--页脚部分结束-->
+	</body>
+
+</html>

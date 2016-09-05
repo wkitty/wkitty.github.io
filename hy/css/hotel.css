@@ -1,0 +1,139 @@
+
+body{margin: 0 auto;padding: 0; width: 1440px;font-family: "微软雅黑";font-size: 14px;}
+
+a{text-decoration: none;font-family: "微软雅黑";font-size: 12px;color: #666;}
+ul,li{list-style-type: none;}
+
+#header{
+	width:1350px;
+	height:152px;
+	z-index:1;
+	
+}
+#logo{
+	width:135px;
+	height:180px;
+	z-index:2;
+	margin-left:300px ;
+	
+}
+
+#header .ul{
+	width:800px;
+	height:150px;
+	position:absolute ;
+	left:400px ;
+	top:-10px;
+	
+	
+}
+#header ul li{
+	border-right:1px solid #e5e5e5;
+	float: left;
+	list-style:none ;
+	width:80px;
+	
+}
+#header ul li a{
+	text-decoration: none;
+	display: block;
+}
+#header ul li a img{
+	margin-left:12px;
+}
+#header ul li a span{
+	display: block;
+	width:20px;
+	
+	margin-left:37px ;
+	font-size:15px ;
+	color: #000000;
+}
+
+#logo img{
+	width:135px;
+	height:172px;
+}
+
+
+
+
+.banner{
+	margin-top:10px;padding-top:390px;float:left;width:100%;;border:1px solid #CCC;background-image:url(../img/hotel/banner.jpg);cursor:pointer;}
+.bannerbot{
+		 float:left;width: 1300px;padding-top:20px;background-color: #000;opacity: 0.7;}
+.bannersel{margin: 0 auto;width:50%;height:50px;/*background-color:brown;*/}
+.bannersel0{float: right;margin:20px 5px 0 0px ;}
+.bannersel select{width: 200px;height:40px;margin: 0 5px;color: #666666;font-family: "微软雅黑";font-size: 13px;font-weight: bold;}
+
+.bannersel a{color:#CCCCCC;}
+
+.main{float: left; width: 1300px; padding: 35px 0; position: relative;}
+.maintop{width: 960px; height:300px;margin: 0px auto; padding: 10px 0 0 100px;    /*border: 1px solid #CCC;*/}
+.mleft{float: left;}
+.mleft ul{margin: 0;padding: 0;}
+.mleft ul li{width: 180px;height:33px;border: 0.5px solid #666666;background-color:whitesmoke; margin: 0;padding: 15px 0 0 20px;}
+.mleft ul li a{margin: 10px ;}
+.mleft ul li:hover{background-color: #CCCCCC;}
+.mleft ul li a:hover{color: white;}
+
+.mmid{position: relative; float:left;width: 750px; height: 300px; margin-right: 5px;}
+.img ul{width: 5000px;}
+.img{overflow:hidden;width: 750px; height: 300px;}
+.img li{display:inline;float: left;width: 750px; height: 300px;text-align:center; line-height:300px;}
+.img ul,li{list-style-type: none;padding: 0;margin: 0;}
+.btnprev{position: absolute;top:0;left:-15px;width: 120px;height: 300px;background: url(../img/hotel/btn_prev.png) no-repeat center center;cursor: pointer;display:block;z-index: 10;opacity:0.5}
+.btnnext{position: absolute;top:0;right:-15px; width: 120px;height: 300px;background: url(../img/hotel/btn_next.png) no-repeat center center;cursor: pointer;display:block;z-index: 10;opacity:0.5}
+
+.tuijian{position: relative;width: 710px; height: 200px; margin:20px 20px 0 120px;border: 8px solid #CCCCCC;}
+.t_img ul{width: 5000px;}
+.t_img{overflow:hidden;width: 720px; height: 200px;}
+.t_img li{display:inline;float: left;width: 350px; height: 300px;text-align:center; line-height:300px;margin-right:10px;cursor: pointer;}
+.t_img ul,li{list-style-type: none;padding: 0;margin: 0;}
+.t_btnprev{position: absolute;top:0;left:-15px;width: 80px;height: 200px;background: url(../img/hotel/btn_prev1.png) no-repeat center center;cursor: pointer;display:block;z-index: 10;opacity:0.6}
+.t_btnnext{position: absolute;top:0;right:-15px;width: 80px;height: 200px;background: url(../img/hotel/btn_next1.png) no-repeat center center;cursor: pointer;display:block;z-index: 10;opacity:0.6}
+
+.main12{width: 900px;height: 200px; margin: 30px 0 50px 250px;    border-top: 1px solid #CCC; padding-top: 20px;}
+.main1{float:left;border-right: 1px solid #CCC;padding: 0 20px 0 0;width: 450px;}
+.main1 p{margin:20px 0 20px 30px;font-size: 12px; font-family: "微软雅黑";}
+.main1 .mainplus{font-size: 38px;font-weight: bold;}
+.main1 .mainfstyle{font-size: 12px; font-family: "微软雅黑";}
+.main1 .introduce{/*float: left;*/margin-left:50px ;float: right;}
+.main34{width: 900px;height: 200px; margin: 50px 0 50px 250px;    border-top: 1px solid #CCC;padding-top: 20px;}
+.main3{float: right;border-left: 1px solid #CCC;padding-left: 50px;padding-right:50px ;}
+.main3 .equipment{}
+.main3 .equipment img{margin: 35px 85px 10px 0;}
+.main56{width: 900px;height: 200px; margin: 50px 0 50px 250px;    border-top: 1px solid #CCC; padding-top: 20px;}
+.main5{float:left;border-right: 1px solid #CCC;padding: 0 20px 0 0;width: 450px;}
+.mnews{margin: 20px 20px 0 80px;line-height: 34px;}
+.mnews span{margin: 0 30px 0 15px;}
+.mnews a:hover{color: #000;font-weight: bold;}
+.main56 .news{font-family: "微软雅黑";font-size: 12px;color: #666666;}
+.main56 .newsdate{font-family: "微软雅黑";font-size: 16px;}
+.main67{width: 900px;height: 300px; margin: 50px 0 50px 250px;    border-top: 1px solid #CCC; padding-top: 20px;}
+.main6{float: left;}
+.main5{}
+
+.mainfooter{ width: 900px;height: 140px; margin: 50px 0 50px 250px;    border-top: 1px solid #CCC;padding-top: 20px;}
+.mainf{float: left;}
+.mainfooter .nummber{ font-size: 12px;line-height: 30px;margin: 25px 0 0 160px;}
+.mainfooter .spantitle3{font-size: 14px;font-weight: bold;}
+.share{margin: 100px 0 0 600px;}
+
+.p_m1,.p_m2,.p_m3{position: absolute;margin-left: 50px;margin-top:3px ;border: 2px solid #CCC;}
+
+.spantitle{font-family: "微软雅黑";font-size: 20px;}
+.spantitle2{font-family: "微软雅黑";font-size: 16px;}
+
+
+.footer{float: left;width: 100%;position: relative;}
+.footer1{float:left;height: 248px;width: 100%; background-image: url(../img/hotel/bc_footer.jpg);}
+.footerleft{margin: 55px 0 0 300px;float: left;}
+.footerleft img{margin: 3px 5px 0 0;cursor:pointer;border: 2px solid white;}
+.footerleft img:hover{border: 2px solid #999999;}
+.footerright{margin: 55px 400px 0 0;float: right;color:white;font-size: 12px;}
+.footer2{float: left;width:100%; height: 25px;background-image: url(../img/hotel/bc_footer2.jpg); font-size: 12px;color: #666666;font-family: "微软雅黑";}
+.footer2 .f2left{float:left;margin: 6px 0 0 265px;}
+.footer2 .f2right{float: right;margin:6px 350px 0 0;}
+.footerlogo{position: absolute;bottom: 0;left: 650px;}
+.backtop{position: absolute; right:250px;top:-15px; border: 3px solid cadetblue;cursor: pointer;}
