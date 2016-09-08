@@ -1,0 +1,197 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style-type: none;}
+a{text-decoration: none;color:#669933;}
+body{width: 1280px;margin: 0 auto;font-family: "微软雅黑";font-size: 14px;}
+/**/
+
+.top1{
+	width: 100%;
+	height: 30px;
+	background-color:black;opacity: 0.7;
+	}
+.top2{
+	width:100%;
+	height: 100px;
+	position: relative;
+}
+.top2 img{position: absolute;}
+.top2_nav{position: absolute; right:140px; top:10px}
+.top2_nav a{margin: 5px;font-size: 12px;color:#666;}
+.top2_nav a:hover{color:#669933;}
+.nav{
+	width: 100%;
+	height: 50px;
+	border-top: 2px solid #669933;
+	background-color: whitesmoke;
+}
+.nav ul{margin: 0 auto;width: 800px;}
+.nav ul li{float: left;text-align: center;width: 100px;margin-right: 10px;}
+.nav ul li a:hover{ background-color: #99cc66;color: white;}
+.nav li a{line-height: 50px;height: 50px;width: 100px;display: block;}
+.nav #nav1{ background-color: #99cc66;color: white;}
+.banner{
+	width: 1280px;
+	height: 380px;
+}
+.banner .img ul{width: 5000px;}
+.banner .img{overflow:hidden;width: 1280px; height: 380px;}
+.banner .img li{display:inline;float: left;width: 1280px; height: 380px;text-align:center; line-height:380px;}
+.banner .img ul,li{list-style-type: none;padding: 0;margin: 0;}
+.fuwu{
+	width: 980px;
+	height: 450px;
+}
+.service_btn{
+	margin-left:420px;
+	margin-top:20px;
+	}
+.service_b{
+	border:none;
+	color: #669933;
+	background-color:#EFEFEF;
+	text-align:center;
+	height:35px;width:100px;
+	margin-right:10px;
+	}
+.service_btn button:hover{
+	background-color: #99cc66;color: white;}
+
+.clicked{
+	border:none;
+	text-align:center;
+	height:35px;width:100px;
+	margin-right:10px;
+	background-color:#99cc66;
+	color:white;}
+		 
+.service1,.service2,.service3,.service4{
+	position:absolute;
+	margin-top:50px;
+	margin-left:170px;
+	width:980px;
+	}
+.service1 img,.service2 img,.service3 img,.service4 img{cursor:pointer;}
+.service1_1,.service1_2,.service1_3,.service1_4{
+	float:left;
+	background-color: #99cc66;
+	height:185px;width:220px;
+	margin-right:20px;
+	}
+.service1_1:hover,.service1_2:hover,.service1_3:hover,.service1_4:hover{background-color:#093;box-shadow: 5px 10px 10px #666;}
+
+.servicetext{
+	background-color:#EFEFEF;
+	height:45px;
+	line-height:20px;
+	margin-top:5px;
+	padding:5px 0 0 5px;
+	position: relative;
+	}
+.servicetext .eng{
+	font-size:10px;
+	color:#666;}
+		
+.jieshao{
+	width: 1280px;
+	height: 480px;
+	background-image: url(../img/bc_jieshao.jpg);
+	
+}
+.js_mid{
+	margin: 0 auto;
+	width: 920px;
+	height: 480px;
+	}
+.js_left{
+		width: 550px;
+		height: 280px;
+		border: 1px solid #99cc66;
+		margin:10px 0 0 10px;
+		position:relative;
+	}
+.js1,.js2,.js3,.js4{
+	position:absolute;
+	top:5px;left:5px;
+	width:500px;height:230px;
+	text-indent:2em;
+	padding:20px;
+	line-height:26px;
+	font-size:12px;
+}
+.js2,.js3,.js4{display:none;}
+.imgbtn{
+		position:absolute;
+		top:1360px;left:310px;
+	}
+.imgbtn img{
+	margin-left:15px;
+	cursor:pointer;}
+.midimg{
+	width: 100%;
+	height: 150px;
+}
+.wenhua{
+	width: 100%;
+	height: 780px;
+	padding-top: 40px;
+	position: relative;
+}
+.whl{
+	
+	width: 640px;
+	height: 650px;
+	border-right: 2px dashed #999;
+}
+.wh_bta{position: absolute;cursor:pointer;left: 613px;}
+.wh_btb{position: absolute;cursor:pointer;left: 613px;top: 170px;}
+.wh_btc{position: absolute;cursor:pointer;left: 613px;top: 300px;}
+.wh_btd{position: absolute;cursor:pointer;left: 613px;top: 430px;}
+
+.wh_am{position: absolute;left: 685px;top:120px;}
+.wh_bm{position: absolute;left: 330px;top: 240px;}
+.wh_cm{position: absolute;left: 685px;top: 380px;}
+.wh_dm{position: absolute;left: 270px;top: 500px;}
+.anli{
+	width: 100%;
+	height: 620px;
+	background-image: url(../img/an_bc.jpg);
+	position: relative;
+	color: #666;
+}
+.anli img{margin: 5px 5px 0 0;}
+.anli a{color: #666666;}
+.al_1{border-bottom: 1px dashed #999;padding: 15px;}
+.al_2{border-bottom: 1px dashed #999;padding: 15px;}
+.al_3{border-left: 1px dashed #999;padding-left: 30px;}
+.footnav{
+	width: 100%;
+	height: 50px;
+	background-image: url(../img/foot_1.jpg);
+	margin-top: 30px;
+	color: white;
+	
+	
+}
+.footnav a{color: white;line-height: 50px;margin: 15px;}
+.foot{
+	width: 100%;
+	height: 180px;
+	background-image: url(../img/foot_2.jpg);
+	position: relative;
+}
+.foot p{position: absolute;
+	top:40px;
+	left: 400px;
+	color: white;
+}
+.more{
+	color: white;
+	background-color: #99CC66;
+	height: 16px;width: 50px;
+	position: absolute;
+	font-size:12px ;
+	text-align: center;
+	line-height: 18px;
+	cursor: pointer;
+	}
+.more:hover{background-color: #669933;}

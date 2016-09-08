@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$(".wh_bta").click(function(){
+		$(".wh_am").slideToggle(1500);
+	});
+	$(".wh_btb").click(function(){
+		$(".wh_bm").slideToggle(1500);
+	});
+	$(".wh_btc").click(function(){
+		$(".wh_cm").slideToggle(1500);
+	});
+	$(".wh_btd").click(function(){
+		$(".wh_dm").slideToggle(1500);
+	});
+});
